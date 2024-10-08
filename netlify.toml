@@ -1,9 +1,0 @@
-[build]
-  base    = "" # Lascia vuoto se il build parte dalla root del progetto
-  publish = "dist" # Questa è la cartella dove si trova il tuo `index.html`
-  command = "npm run build"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
